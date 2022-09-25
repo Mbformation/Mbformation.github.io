@@ -727,10 +727,6 @@ h4 {
     margin-top: 24px;
 }
 
-.dark-blue {
-    color: #364577 !important;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -772,7 +768,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #364577 !important;
+    color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
