@@ -90,6 +90,11 @@ a:hover {
     right: 0;
 }
 
+.logo-size img {
+    height: 100px;
+    width: 100px;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
@@ -117,6 +122,10 @@ a:hover {
 
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
+}
+
+h2 {
+    color: #364577;
 }
 
 .d-bloc .a-btn,
@@ -360,6 +369,16 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.navbar-header a img {
+    width: 216px;
+    height: 40px;
+}
+
+.col-sm-6 a img {
+    width: 270px;
+    height: 270px;
 }
 
 @media (min-width: 768px) {
@@ -1049,6 +1068,12 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .col-sm-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
