@@ -170,6 +170,8 @@ h2 {
     color: rgba(255, 255, 255, 1);
 }
 
+
+
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -512,6 +514,15 @@ button {
 .icon-md {
     font-size: 30px !important;
 }
+
+.text-center a .icon-md {
+    color: black;
+}
+
+.text-center a:hover .icon-md {
+    color: black;
+}
+
 
 .icon-lg {
     font-size: 60px !important;
