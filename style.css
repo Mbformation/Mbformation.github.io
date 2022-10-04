@@ -92,8 +92,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)), url("img/texture-paper.webp");
+    background-image: linear-gradient(rgba(9, 5, 5, 0.1),
+            rgba(0, 0, 0, 0.1)), url("img/texture-paper.webp");
     background-size: 280px 280px;
     z-index: 0;
 }
@@ -395,6 +395,10 @@ h2 {
     line-height: 1.4em;
 }
 
+.tangerine {
+    color: #F3976C;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -427,7 +431,7 @@ h1 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 40px 40px 40px 40px;
 }
 
