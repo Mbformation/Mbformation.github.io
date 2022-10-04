@@ -7,6 +7,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+    font-size: 16px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -245,7 +258,7 @@ h2 {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .7);
 }
 
 button {
@@ -295,7 +308,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -544,11 +557,6 @@ h1 {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none !important;
-    }
-
-    .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .site-navigation {
